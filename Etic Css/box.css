@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    margin: auto;
+    /* grid-template-columns: 200px 200px 200px 200px 200px ; */
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+}
+.box{
+    border-radius: 15px;
+    font-size: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: aqua;
+}
+.box1{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.box2{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.box3{
+    grid-column: span 2;
+    grid-row: span 2;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="scrpt.js"></script> -->
+</head>
+<body>
+    <!-- <script>
+        function sum(a, b, c) {
+            let result = a + b + c;
+            return result;
+        }
+        
+        document.write("The result is: " + sum(10, 20, 30) );
+    
+    </script> -->
+    <!-- <script>
+        function sum(a, b, c) {
+            let result = a + b + c;
+            document.write(a + "<br>");
+            document.write(b + "<br>");
+            document.write(c + "<br>");
+        }
+        
+        sum(10, 20);
+    
+    </script> -->
+    <!-- <script>
+        function sum() {
+           
+            document.write(arguments[0] + "<br>");
+            document.write(arguments[1] + "<br>");
+            document.write(arguments[2] + "<br>");
+            document.write(arguments[3] + "<br>");
+            document.write(arguments[4] + "<br>");
+           
+        }
+        
+        sum(10,20,30,40,50);
+    
+    </script> -->
+    <!-- <script>
+        let square =function sum( n ) {
+            return n * n;
+           
+            //function expression
+           
+        }
+        
+      document.write (square(9));
+    
+    </script> -->
+    <!-- <script>
+        let square = ( n ) => n * n;
+        {
+             
+           
+            //function expression
+           
+        }
+        
+      document.write (square(8));
+    
+    </script> -->
+    <!-- <script>
+       
+        let sum  = ( a, b ) => 
+        {
+            let result;
+            result= a + b;
+            return result;
+
+             
+           
+           
+           
+        }
+        
+      document.writeln (sum(10,20));
+    
+    </script> -->
+    <!-- <script>
+    
+        function calculate( calculation ) {
+    
+            document.writeln( calculation(23, 90) );
+    
+        }
+    
+        let sum = function (a, b) {
+            return a + b;
+        }
+        calculate( sum );
+    
+    </script> -->
+    <script>
+        function calculate() {
+            const value1 = parseFloat(document.getElementById('value1').value);
+            const value2 = parseFloat(document.getElementById('value2').value);
+            const operator = document.getElementById('operator').value.trim();
+            let result;
+
+            if (isNaN(value1) || isNaN(value2)) {
+                result = 'Please enter valid numbers for both values.';
+            } else {
+                switch (operator) {
+                    case '+':
+                        result = value1 + value2;
+                        break;
+                    case '-':
+                        result = value1 - value2;
+                        break;
+                    case '*':
+                        result = value1 * value2;
+                        break;
+                    case '/':
+                        result = value2 !== 0 ? value1 / value2 : 'Cannot divide by zero';
+                        break;
+                    default:
+                        result = 'Please enter a valid operator (+, -, *, /).';
+                }
+            }
+
+            document.getElementById('result').innerText = `Result: ${result}`;
+        }
+    </script>
+    
+</body>
+</html>

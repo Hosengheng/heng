@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* }
+.box{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: blue;
+    border-radius: 10px; */w
+
+}
+/* 
+pseudoclass:
+- :active
+- :hover
+- :focus
+- :first-child()
+- :last-child()
+- :nth-child()
+
+-
+*/
+/* .input{
+   width: 50%;
+   margin-left: 45%;
+   margin-top: 40px;
+   padding: 15px;
+   border-radius: 10px;
+   outline: none;
+}
+.input:focus{
+   border: 2px solid blue;
+}
+.box:hover{
+   width: 310px;
+   background-color: aquamarine;
+}
+ .box:active{
+    width: 310px;
+    background-color: brown;
+ }
+ li{
+    margin-left: 45%;
+    
+ }
+ .list li:first-child{
+    background-color: brown;
+ }
+ .list li:last-child{
+    background-color: blue;
+ }
+ .list li:nth-child(3){
+    background-color: aqua;
+ }
+     /* */
+     /* h2{
+      color: aliceblue;
+     }
+  .box:hover h2{
+   background-color: brown;
+  }
+  .child-box{
+   width: 100px;
+   height: 100px;
+   background-color: blueviolet;
+   display: none;
+  }
+ .box:hover .child-box{
+   display: block;
+   background-color: rgb(230, 20, 20);
+ }
+ h2::after{
+   content: "hello my";
+ }
+ h2 ::before{
+   content: " you";
+ } */ */
+
+ .btn{
+   padding: 20px;
+   margin: 100px;
+   border: 1px;
+   border-radius: 10px;
+   background-color: :read
+   
+ }

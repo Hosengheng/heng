@@ -1,0 +1,30 @@
+*{
+
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+
+}
+.parent{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 230px);
+}
+.box{
+    background-color: red;
+    border-radius: 15px;
+    grid-column: span 2;
+}
+@media (max-width: 1200px){
+    .box{
+        grid-column: span 3;
+    }
+   
+}
+@media (max-width: 576px){
+    .box{
+        grid-column: span 6;
+    }
+   
+}

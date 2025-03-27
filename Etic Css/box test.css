@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    margin: auto;
+    gap: 10px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+.box{
+    border-radius: 15px;
+    font-size: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: aqua;
+}
+.box1{
+    grid-row: span 3 ;
+}
+.box2{
+    grid-column: span 2;
+}
+.box3{
+    grid-column: span 1;
+}
+.box4{
+    grid-column: span 1;
+}
+.box5{
+    grid-column: span 2;
+}
+.box6{
+    grid-column: span 2;
+}
+.box{
+    grid-column: span 2;
+}
+
